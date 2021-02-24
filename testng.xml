@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter name="name" value="prabhusundaram28" />
+  <parameter name="password" value="Prabhu@1996" />
+  <parameter name="location" value="Sydney"/>
+  <parameter name="hotel" value="Hotel Sunshine"/>
+  <parameter name="roomType" value="Double"/>
+  <parameter name="noOfRooms" value="2 - Two"/>
+  <parameter name="adultsPerRoom" value="2 - Two"/>
+  <parameter name="childPerRoom" value="1 - One"/>
+  <parameter name="firstName" value="prabhu"/>
+  <parameter name="lastNmae" value="kalyan"/>
+  <parameter name="address" value="perungudi"/>
+  <parameter name="creditCardNumber" value="1234567890123456"/>
+  <parameter name="creditCardType" value="Visa"/>
+  <parameter name="expMonth" value="July"/> 
+  <parameter name="expYear" value="2021"/>  
+  <parameter name="cvvNumber" value="399"/> 
+      <classes>
+      <class name="com.task.Task1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="address" value="perungudi"/>
+    <parameter name="creditCardType" value="Visa"/>
+    <parameter name="adultsPerRoom" value="2 - Two"/>
+    <parameter name="firstName" value="prabhu"/>
+    <parameter name="expMonth" value="July"/>
+    <parameter name="password" value="Prabhu@1996"/>
+    <parameter name="cvvNumber" value="399"/>
+    <parameter name="childPerRoom" value="1 - One"/>
+    <parameter name="expYear" value="2021"/>
+    <parameter name="creditCardNumber" value="1234567890123456"/>
+    <parameter name="name" value="prabhusundaram28"/>
+    <parameter name="hotel" value="Hotel Sunshine"/>
+    <parameter name="lastNmae" value="kalyan"/>
+    <parameter name="location" value="Sydney"/>
+    <parameter name="noOfRooms" value="2 - Two"/>
+    <parameter name="roomType" value="Double"/>
+    <classes>
+      <class name="com.task.Task1">
+        <methods>
+          <include name="tc3" invocation-numbers="0"/>
+          <include name="tc2"/>
+          <include name="tc1" invocation-numbers="0"/>
+          <include name="tc0" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.task.Task1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
